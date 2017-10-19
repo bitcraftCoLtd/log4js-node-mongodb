@@ -62,7 +62,7 @@ The log data is stored in the following format.
     timestamp: loggingEvent.startTime,
     data: loggingEvent.data,
     level: loggingEvent.level,
-    category: loggingEvent.categoryName
+    category: loggingEvent.logger.category
 }
 ```
 
